@@ -1,5 +1,3 @@
 # Presentacion
 
-## Enlace a nuetra página de presentación.
-
-[Has click aquí ](http://eduardo-riera.github.io)
+## Enlace a nuetra página de presentación. [CLICK AQUI](http://eduardo-riera.github.io)
