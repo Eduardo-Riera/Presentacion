@@ -11,25 +11,21 @@ body{
 }
 .presentacion{
 	font-size: 100px;
-	padding-top: 5px;
-	padding-bottom: 200px;
 	font-family: sans-serif;
 	text-align: center;
-	color: cornflowerblue;
+	color: rgb(53, 119, 241);
 	text-shadow: 5px 5px 10px black;
-	width: 100%;
-}
-.cabecera{
-	text-align: center;
 }
 header{
 	display: flex;
+	padding-bottom: 170px;
+	object-fit: cover;
 	justify-content: center;
 	background-image: url("imagenes/image-header.jpg");
 	image-rendering: optimizeSpeed;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center;	
+	background-position: center;
 }
 a{
 	text-decoration: none;
@@ -70,13 +66,16 @@ p{
 	padding-left: 15px;
 }
 .retoqueFoto img {
-	border-radius: 30px;	
+	border-radius: 30px;
+	border: 1px;
+	border-style: solid;
+	border-color: gray;	
 }
 .retoqueFoto{
 	transition: 0.4s ease;
 }
 .retoqueFoto:hover{
-	transform: scale(3, 3);
+	transform: scale(2.3);
 }
 .etiqueta {
 	font-style: italic;
@@ -137,13 +136,13 @@ p{
 @media screen and (max-width: 2000px){
 	.presentacion{
 		font-size: 100px;
-		padding-bottom: 600px;
+		/* padding-bottom: 600px; */
 	}
 }
 @media screen and (max-width: 1000px){
 	.presentacion{
 		font-size: 65px;
-		padding-bottom: 400px;
+		/* padding-bottom: 400px; */
 	}
 }
 @media screen and (max-width: 600px){
